@@ -1,4 +1,4 @@
 # web-development-
 This is my first Git Repository
 <br>
-Author- Ayushi jain 
+Author- Ayushi (apna college)
