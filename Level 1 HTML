@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- This tells the browser that this is an HTML5 document -->
+
+<html>
+<!-- Root element of the HTML page -->
+
+<head>
+  <!-- Head tag contains meta info about the page (not shown on screen) -->
+
+  <meta charset="UTF-8">
+  <!-- Defines character encoding for text -->
+
+  <title>My First HTML Page</title>
+  <!-- Title shown in browser tab -->
+
+</head>
+
+<body>
+  <!-- Body tag contains all content that appears on the web page -->
+
+  <!-- 📝 This is a comment. Comments are ignored by the browser -->
+
+  <h1>Hello, Ayushi!</h1>
+  <p>This is your very first HTML page.</p>
+
+</body>
+</html>
