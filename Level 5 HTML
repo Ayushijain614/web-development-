@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Class, ID, Form Controls & iframe</title>
+  <style>
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+    #form-box {
+      border: 2px solid #ccc;
+      padding: 20px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🎯 class and id -->
+  <h1 class="highlight">Welcome to My Web Page</h1>
+  <p id="form-box">This box has an ID selector for styling.</p>
+
+  <!-- 📝 Form Elements -->
+  <h2>HTML Form Example</h2>
+  <form action="submit.php" method="POST">
+
+    <!-- 📛 Label + Input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="username"><br><br>
+
+    <!-- ✅ Checkbox -->
+    <label><input type="checkbox" name="hobby" value="dance"> Dance</label>
+    <label><input type="checkbox" name="hobby" value="music"> Music</label><br><br>
+
+    <!-- 📂 Select Dropdown -->
+    <label for="city">Choose your city:</label>
+    <select name="city" id="city">
+      <option value="gwalior">Gwalior</option>
+      <option value="delhi">Delhi</option>
+      <option value="indore">Indore</option>
+    </select><br><br>
+
+    <!-- 🚀 Submit Button -->
+    <input type="submit" value="Submit Form">
+  </form>
+
+  <!-- 🌐 iframe Tag -->
+  <h2>Embedded Website using iframe</h2>
+  <iframe 
+    src="https://www.wikipedia.org" 
+    width="400" 
+    height="300" 
+    title="Wikipedia"
+    loading="lazy">
+  </iframe>
+
+</body>
+</html>
