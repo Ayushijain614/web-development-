@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Lists, Tables & Forms</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    table {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🧾 HTML Lists -->
+
+  <h2>Unordered List (ul)</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+
+  <h2>Ordered List (ol)</h2>
+  <ol>
+    <li>Wake up</li>
+    <li>Brush</li>
+  </ol>
+
+  <!-- 📋 HTML Table -->
+
+  <h2>Student Table with Caption, thead & tbody</h2>
+
+  <table>
+    <caption>Student Marks</caption>
+
+    <!-- Table Head -->
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Math</th>
+        <th>Science</th>
+      </tr>
+    </thead>
+
+    <!-- Table Body -->
+    <tbody>
+      <tr>
+        <td>Ayushi</td>
+        <td>95</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td>Rigved</td>
+        <td>88</td>
+        <td>85</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 📝 HTML Form -->
+
+  <h2>Contact Form</h2>
+  <form action="submit-form.php" method="POST">
+    <!-- action = where form data goes (PHP, server etc.) -->
+
+    <!-- Label + Input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="username" placeholder="Enter your name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="useremail" placeholder="Enter your email">
+
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="usermessage" placeholder="Your message">
+
+    <br><br>
+    <input type="submit" value="Send Message">
+  </form>
+
+</body>
+</html>
