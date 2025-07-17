@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic HTML Tags & Attributes</title>
+</head>
+<body>
+
+  <!-- 🏷️ Heading Tags -->
+  <h1>This is H1 Heading</h1>
+  <h2>This is H2 Heading</h2>
+  <h3>This is H3 Heading</h3>
+  <h4>This is H4 Heading</h4>
+  <h5>This is H5 Heading</h5>
+  <h6>This is H6 Heading</h6>
+
+  <!-- 🔗 Anchor Tag (Link) -->
+  <p>Go to <a href="https://www.google.com" target="_blank">Google</a></p>
+  <!-- href = link, target="_blank" = new tab -->
+
+  <!-- 🖼️ Image Tag -->
+  <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/18277139/GettyImages_577660404.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400" alt="Notebook" width="150" height="150">
+  <!-- src = image path, alt = alternate text, width & height = size -->
+
+  <!-- 🧱 Line Break -->
+  <p>This is first line.<br>This is second line after break.</p>
+
+  <!-- 🔤 Text Formatting Tags -->
+  <p><b>This text is bold</b></p>
+  <p><i>This text is italic</i></p>
+  <p><u>This text is underlined</u></p>
+
+  <!-- 🧪 Subscript & Superscript -->
+  <p>Water formula: H<sub>2</sub>O</p> <!-- subscript -->
+  <p>Square: x<sup>2</sup></p> <!-- superscript -->
+
+  <!-- 🧾 preformatted Text -->
+  <h3>Preformatted Text:</h3>
+  <pre>
+    This is text inside pre tag.
+    It keeps spaces      and line breaks.
+  </pre>
+
+  <!-- 💡 Example of Basic HTML Attributes -->
+  <p title="Hover over me to see this text" style="color: blue;">This paragraph has a title and inline style.</p>
+  <!-- title = mouse hover tooltip, style = inline CSS -->
+
+</body>
+</html>
