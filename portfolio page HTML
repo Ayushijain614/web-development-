@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayushi Jain - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: transparent;
+    }
+
+    nav h1 {
+      color: #b49bff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #b49bff;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+    }
+
+    .highlight-name {
+      color: #b49bff;
+      font-weight: bold;
+      font-size: 3.2rem;
+      letter-spacing: 1px;
+    }
+
+    .highlight-lastname {
+      color: #ffffff;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 3.2rem;
+      letter-spacing: 1px;
+    }
+
+    .intro-text {
+      font-size: 1.2rem;
+      color: #dcdcdc;
+      max-width: 650px;
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      margin-top: 25px;
+      padding: 12px 30px;
+      font-size: 1rem;
+      background-color: #b49bff;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #a287f0;
+    }
+
+    .stars {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: url('https://media.istockphoto.com/id/1222186536/vector/shiny-stars-in-dark-night-sky.jpg?s=612x612&w=0&k=20&c=90nVDGEv29RKMkzG8W7QHH6Kz4etJKjTxCN3IfHcVOU=') no-repeat center center/cover;
+      opacity: 0.3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="stars"></div>
+
+  <nav>
+    <h1>My <span style="color: white;">Portfolio</span></h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>
+      Hi, I'm <span class="highlight-name">AYUSHI</span>
+      <span class="highlight-lastname">JAIN</span>
+    </h1>
+    <p class="intro-text">
+      Passionate about creating <strong>beautiful</strong> and <em>functional</em> web interfaces using modern front-end technologies. Let's build something amazing together! 🚀
+    </p>
+    <button class="btn">View My Work</button>
+  </section>
+
+</body>
+</html>
