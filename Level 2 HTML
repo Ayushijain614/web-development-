@@ -38,7 +38,7 @@
   <h3>Preformatted Text:</h3>
   <pre>
     This is text inside pre tag.
-    It keeps spaces      and line breaks.
+    It keeps spaces     and line breaks.
   </pre>
 
   <!-- 💡 Example of Basic HTML Attributes -->
