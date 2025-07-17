@@ -11,7 +11,7 @@ It showcases my:
 ## 🔥 Live Preview
 
 Click below to see it live:  
-➡️ [View My Portfolio](https://Ayushijain614.github.io/portfolio/) *(replace with your GitHub link)*
+➡️ [View My Portfolio](https://github.com/Ayushijain614/web-development-.git)
 
 ## 🧠 Features
 
